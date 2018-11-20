@@ -8,16 +8,27 @@ import Dog.Model.Dog;
 
 public class ChoiceController
 {
-	public void start()
-	{
-		Constructor();
-	}
 	
 	private Dog userDog;
 	private Dog userDog2;
 	private Dog userDog3;
 	
+	public void Arrays()
+	{
+		Dog DogArray[] = new Dog[3];
+		
+	}
+			
+	public void start()
+	{
+		
+		
+		dogs = new dog[3];
+	}
+	
+	/**
 	public ArrayList <Dog> DogList;
+
 	{
 		
 	} 
@@ -28,6 +39,7 @@ public class ChoiceController
 		DogList.add(userDog2);
 		DogList.add(userDog3);
 	}
+	*/
 	
 	public void fatdog()
 	{
@@ -36,14 +48,8 @@ public class ChoiceController
 		userDog2 = new Dog("Deer", "Cat", "Moose?");
 		userDog3 = new Dog("fat", "Skinny", "No?");
 		
-		buildList();
 	}
 	
-	
-	public void Constructor()
-	{
-		JOptionPane.showMessageDialog(null ,userDog);
-	}
 	
 	
 }
